@@ -21,5 +21,7 @@ const buttonFooBar = document.getElementById("buttonFooBar");
 buttonFooBar.addEventListener('click', responseToFooBar)
 
 function responseToFooBar() {
-    
+    const h2Tag = document.createElement('h2');
+    h2Tag.textContent = "FooBar";
+    main.appendChild(h2Tag);
 }
