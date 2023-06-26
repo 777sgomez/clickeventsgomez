@@ -12,5 +12,7 @@ const buttonBar = document.getElementById("buttonBar");
 buttonBar.addEventListener('click', responseToBar)
 
 function responseToBar() {
-    
+    const h3Tag = document.createElement('h3');
+    h3Tag.textContent = "Bar";
+    main.appendChild(h3Tag);
 }
