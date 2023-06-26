@@ -3,5 +3,7 @@ const main = document.querySelector("main");
 buttonFoo.addEventListener('click', responseToFoo)
 
 function responseToFoo() {
-
+    const h3Tag = document.createElement('h3');
+    h3Tag.textContent = "Foo";
+    main.appendChild(h3Tag);
 }
