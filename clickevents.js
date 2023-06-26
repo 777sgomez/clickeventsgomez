@@ -16,3 +16,10 @@ function responseToBar() {
     h3Tag.textContent = "Bar";
     main.appendChild(h3Tag);
 }
+
+const buttonFooBar = document.getElementById("buttonFooBar");
+buttonFooBar.addEventListener('click', responseToFooBar)
+
+function responseToFooBar() {
+    
+}
